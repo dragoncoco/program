@@ -222,11 +222,10 @@ with tab2:
 
 with tab3:
     st.subheader("계산에 사용한 공식")
-    st.latex(r"I = \\frac{bh^3}{12}")
-    st.latex(r"\\sigma_{max} = \\frac{FL(h/2)}{I}")
-    st.latex(r"\\delta = \\frac{FL^3}{3EI}")
-    st.latex(r"n = \\frac{\\sigma_y}{\\sigma_{max}}")
-
+    st.latex(r"I = \frac{bh^3}{12}")
+    st.latex(r"\sigma_{max} = \frac{FL(h/2)}{I}")
+    st.latex(r"\delta = \frac{FL^3}{3EI}")
+    st.latex(r"n = \frac{\sigma_y}{\sigma_{max}}")
     st.write(
         "I: 단면 2차 모멘트, F: 끝단 하중, L: 보 길이, "
         "b: 단면 너비, h: 단면 높이, E: 탄성계수, "
